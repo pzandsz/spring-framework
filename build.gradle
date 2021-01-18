@@ -284,8 +284,8 @@ configure(allprojects) { project ->
 		}
 		repositories {
 			mavenCentral()
-			maven { url "https://repo.spring.io/libs-spring-framework-build" }
-			maven { url "https://repo.spring.io/milestone" } // Reactor
+			maven { url "http://maven.aliyun.com/nexus/content/groups/public/" }
+			maven { url "https://jitpack.io" } // Reactor
 		}
 	}
 	configurations.all {
